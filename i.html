@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/30792213b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="st.css">
+    <title>Hotel</title>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1>WELCOME TO Paradise Hotel</h1>
+            <P style="font-size: 20px; margin: 20px;">We provide rooms at a very good price along with great amenities to make your living experience awesome</P>
+            <button class="book-button">Book</button>
+        </div>
+    </section>
+    <section class="about-section">
+        <h1>About Us</h1>
+        <div class="about-us">
+            <p>
+                Modern hotel rooms, including those in upscale hotels like "Paradise Hotel," often feature dedicated USB sections to enhance guest convenience. 
+                These typically include wall-mounted USB charging ports, bedside lamps and alarm clocks with built-in USB ports,multi-device charging stations, and sometimes wireless charging pads. 
+                 Universal adapters with USB ports are also common to accommodate international travelers.These features offer convenience, efficiency, and space-saving benefits, allowing guests to charge multiple devices simultaneously without carrying multiple chargers. Key considerations include checking the power output for charging speed, device compatibility, and ensuring safety to prevent overcharging or device damage.
+            </p>
+            <div class="know-more-container">
+            <button class="known-button">Know More...</button>
+            </div>
+        </div>
+        <div class="amenities">
+            <h3>Amenities we have: </h3>
+             <ul>
+                <li><i class="fa-solid fa-wifi"></i>High Speed Internet</li>
+                <li><i class="fa-solid fa-water-ladder"></i>Swimming pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+                <li><i class="fa-solid fa-mug-saucer"></i>Breakfast</li>
+                <li><i class="fa-solid fa-mug-saucer"></i>Cafetria</li>
+             </ul>
+        </div>
+
+    </section>
+    <h1 class="room-heading">Room Types</h1>
+    <section class="room-type-container">
+        <div class="room-images">
+        <img src="room.jpg" alt="room-images">
+        </div>
+        <div class="room-list">
+            <h4>Single Occupancy Rooms</h4>
+            <p>a type of travel accommodation, as at a hotel, for one person in a room.Single occupancy rooms in hotels, including those like "Paradise Hotel," are designed for one guest and typically feature a single bed, a private bathroom, and essential amenities. These rooms provide a comfortable and efficient space for solo travelers, offering privacy and all necessary facilities such as Wi-Fi, a desk, a TV, and often a USB charging section for convenience. They are ideal for business travelers, tourists, or anyone seeking a cost-effective yet comfortable lodging option.</p>
+            <h4>Family Rooms</h4>
+            <p>Family rooms typically involve casual seating areas and durable fabrics, plus TV binging and video game playing. Living rooms, on the other hand, are known as more formal spaces with elevated design, used to entertain guests.</p>
+            <h4>Duplex Room</h4>
+            <p>Each duplex suite has two floors. One is at ground Level, and the other is below ground. The upper floor has the main bedroom suite and a bathroom.</p>
+            
+        </div>
+        
+    </section>
+    <div class="help-button">
+        <h4>Need Help?</h4>
+    </div>
+    <h2 class="form-heading">Fill the form for booking</h2>
+    <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Your full Name</label><br>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email ID</label><br>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="booking-date">Date of Booking</label><br>
+                <input type="date" id="booking-date" required>
+            </div>
+            <div class="form-group">
+                <label for="room-type">Select room type</label><br>
+                <select type="room-type" id="room-type" required>
+                <option value="single room">Single Room</option>
+                <option value="Family room">Family Room</option>
+                <option value="duplex room">Duplex Room</option>
+                </select>
+            </div>
+            <input type="Submit" value="book">
+        </form>
+    </section>
+</body>
+</html>
